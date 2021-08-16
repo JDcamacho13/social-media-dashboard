@@ -1,0 +1,25 @@
+.container-loading {
+    padding-top: calc(50vh - 80px);
+    transition: none;
+}
+
+
+.loading {
+    margin: 0 auto;
+    width: 80px;
+    height: 80px;
+    border: 10px solid rgb(201, 201, 201);
+    border-top: 10px solid rgb(59, 129, 175);
+    border-radius: 50%;
+    animation: spin 1.5s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+  
+    100% {
+      transform: rotate(360deg);
+    }
+  }

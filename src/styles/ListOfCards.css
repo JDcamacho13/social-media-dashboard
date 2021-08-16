@@ -1,0 +1,18 @@
+.container-cards {
+    display: flex;
+    margin: -75px 10%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+@media (max-width: 1260px) {
+    .container-cards {
+        justify-content: space-around;
+    }
+}
+
+@media (max-width: 450px) {
+    .container-cards {
+        margin: -35px 10%;
+    }
+}

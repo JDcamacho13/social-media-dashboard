@@ -1,0 +1,31 @@
+@font-face {
+    font-family: 'Inter';
+    src: url('../assets/fonts/inter-regular.woff2') format('woff2'),
+        url('../assets/fonts/inter-regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    transition: all .5s ease;
+}
+
+/* .dark-mode * {
+    transition: all .5s ease;
+} */
+
+body {
+    font-family: 'Inter';
+    min-height: 100vh;
+}
+
+.container-app {
+    min-height: 100vh;
+}
+
+.container-app.dark-mode {
+    background-color: #1e202a;
+}
